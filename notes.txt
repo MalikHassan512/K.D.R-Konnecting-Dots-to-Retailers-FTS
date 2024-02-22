@@ -1,0 +1,2 @@
+eas update --branch developement --message "first"
+eas update --branch production --message "first"

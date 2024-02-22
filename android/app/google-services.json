@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "220898650349",
+    "project_id": "kdr-app",
+    "storage_bucket": "kdr-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220898650349:android:630de037a49603d21184e4",
+        "android_client_info": {
+          "package_name": "com.lunatech1.kdr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDduat7HnPyxKEHwiJvyxsTc_y_T1_1GDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+{
+  "expo": {
+    "name": "K.D.R",
+    "slug": "K.D.R",
+    "version": "3.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.jpeg",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-build-properties",
+      "@react-native-firebase/app",
+      "@react-native-firebase/perf",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-updates",
+        {
+          "username": "kingjutt1"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "K.D.R requires location permission to show you nearBy service provider"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash-without-loading.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000",
+
+      "android": {
+        "backgroundColor": "#000000",
+        "width": "100%",
+        "height": "100%",
+        "statusBar": {
+          "backgroundColor": "#000000"
+        }
+      }
+
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.my.lunatech",
+      "buildNumber": "20",
+      "infoPlist": {
+        "NSLocationUsageDescription": "K.D.R requires location permission to show you nearBy service provider.",
+        "NSLocationWhenInUseUsageDescription": "K.D.R requires location permission to show you nearBy service provider.",
+        "NSLocationAlwaysUsageDescription": "K.D.R requires location permission to show you nearBy service provider.",
+        "NSPhotoLibraryAddUsageDescription": "K.D.R requires access to the photo library to upload your profile photo.",
+        "NSPhotoLibraryUsageDescription": "K.D.R requires access to the photo library to upload your profile photo.",
+        "NSCameraUsageDescription": "K.D.R requires access to the camera to upload your profile photo."
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "useFrameworks": "static",
+      "UIBackgroundModes": [
+        "fetch",
+        "remote-notification"
+      ]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.lunatech1.kdr",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "versionCode": 5
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "fabtechsol-team",
+    "extra": {
+      "eas": {
+        "projectId": "9a4349a4-d2dd-4be0-a070-2fcc6736f784"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9a4349a4-d2dd-4be0-a070-2fcc6736f784"
+    }
+  }
+}
